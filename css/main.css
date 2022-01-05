@@ -869,6 +869,7 @@ span {
   font-family: var(--secondary-font);
   line-height: 1.25;
   letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
 .mail-input-button {
