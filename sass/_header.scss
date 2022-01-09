@@ -28,18 +28,6 @@
   margin-left: 50px;
 }
 
-.logo {
-  padding-top: 24px;
-  padding-bottom: 24px;
-
-  font-family: raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  color: var(--text-primary);
-}
-
 .meny-nav__link {
   font-weight: 500;
   font-size: 14px;
@@ -112,4 +100,9 @@
 .contacts-nav__icon:hover,
 .contacts-nav__icon:focus {
   fill: var(--theme-color);
+}
+
+.contacts-nav__icon-tel {
+  width: 10px;
+  height: 16px;
 }
