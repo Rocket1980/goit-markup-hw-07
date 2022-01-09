@@ -23,22 +23,22 @@
   color: #ffffff;
 }
 
-.footer-list-box {
+.footer-box {
   margin: 0;
 }
 
-.footer-list {
+.footer-box__liste {
   margin-bottom: 9px;
 }
 
-.footer-mailto {
+.footer-box__mailto {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-tel {
+.footer-box__tel {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -54,14 +54,7 @@
   margin-left: 70px;
 }
 
-.footer-siz-link-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.footer-heading {
+.footer-link__heading {
   margin-top: 10px;
   margin-bottom: 0;
   font-weight: 700;
@@ -72,7 +65,15 @@
   letter-spacing: 0.03;
   color: #ffffff;
 }
-.footer-link-box {
+
+.footer-liste {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-liste__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,16 +87,16 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-link-box:first-child {
+.footer-liste__link:first-child {
   margin-left: 0;
 }
 
-.footer-link-box:hover,
-.footer-link-box:focus {
+.footer-liste__link:hover,
+.footer-liste__link:focus {
   background-color: var(--theme-color);
 }
 
-.footer-link-siz {
+.footer-liste__icon {
   width: 20px;
   height: 20px;
 }
@@ -104,7 +105,7 @@
   margin-left: 93px;
 }
 
-.mail-input-heading {
+.mail-input__heading {
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: bold;
@@ -120,14 +121,14 @@
   margin-left: 0;
 }
 
-.mail-input-siz {
+.mail-input__form {
   width: 579px;
   height: 86px;
 
   display: flex;
 }
 
-.mail-input-text {
+.mail-input__text {
   box-sizing: border-box;
   width: 358px;
   height: 50px;
@@ -141,7 +142,7 @@
   color: #ffffff;
 }
 
-.mail-input-button {
+.mail-input__button {
   width: 200px;
   height: 50px;
   margin-left: 12px;
@@ -163,7 +164,7 @@
   color: #ffffff;
 }
 
-.mail-input-images {
+.mail-input__icon {
   width: 24px;
   height: 24px;
   margin-left: 10px;
