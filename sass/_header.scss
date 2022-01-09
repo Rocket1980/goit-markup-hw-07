@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.connection-conteiner {
+.connection-container {
   margin-left: auto;
 }
 
@@ -68,6 +68,8 @@
 
 .contacts-nav {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contacts-nav__mailto {
