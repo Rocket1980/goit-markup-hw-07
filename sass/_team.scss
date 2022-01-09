@@ -5,14 +5,25 @@
   padding-bottom: 48px;
 }
 
-.team-group {
+.team-box__heading {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-primary);
+}
+
+.team {
   display: flex;
   justify-content: center;
   margin: 0;
 }
 
-.team-group-bg {
-  /* border: 1px solid #eeeeee; */
+.team__liste {
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   background-color: #ffffff;
@@ -20,14 +31,34 @@
   margin-bottom: 30px;
 }
 
-.team-group-link .team-group {
-  display: flex;
-  justify-content: space-around;
-  margin: 0;
+.team__liste:first-child {
+  margin-left: 0;
 }
 
-.team-group-bg:first-child {
-  margin-left: 0;
+.team__image {
+  width: 270px;
+  height: 260px;
+}
+
+.team__heading {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--text-primary);
+}
+
+.team__position {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary);
 }
 
 .team-li {
@@ -39,42 +70,6 @@
   padding-bottom: 30px;
 }
 
-.team-box-heading {
-  margin-top: 0;
-  margin-bottom: 50px;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--text-primary);
-}
-.team-image {
-  width: 270px;
-  height: 260px;
-}
-.team-heading {
-  margin-top: 0;
-  margin-bottom: 10px;
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  color: var(--text-primary);
-}
-.team-position {
-  margin: 0;
-
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  color: var(--text-secondary);
-}
-
 .social-link {
   display: flex;
   flex-direction: row;
@@ -83,17 +78,17 @@
   padding-top: 16px;
 }
 
-.social-link-siz {
+.social-link__list {
   width: 44px;
   height: 44px;
   margin-right: 10px;
 }
 
-.social-link-siz:last-child {
+.social-link__list:last-child {
   margin-right: 0;
 }
 
-.link-kolor {
+.social-link__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,13 +97,13 @@
   height: 100%;
   color: #afb1b8;
 }
-.link-kolor:hover,
-.link-kolor:focus {
+.social-link__link:hover,
+.social-link__link:focus {
   background-color: var(--theme-color);
   color: #ffffff;
 }
 
-.link-siz {
+.social-link__icon {
   width: 20px;
   height: 20px;
   fill: currentColor;
