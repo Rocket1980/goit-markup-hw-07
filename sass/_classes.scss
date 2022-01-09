@@ -3,13 +3,13 @@
   padding-bottom: 84px;
 }
 
-.image {
+.galerie {
   display: flex;
   justify-content: center;
   margin: 0;
 }
 
-.classes-image-list {
+.galerie__list {
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -17,7 +17,7 @@
   position: relative;
 }
 
-.classes-image-list:first-child {
+.galerie__list:first-child {
   margin-left: 0;
 }
 
@@ -33,12 +33,12 @@
   color: var(--text-primary);
 }
 
-.classes-image {
+.galerie__image {
   width: 370px;
   height: 294px;
 }
 
-.background-text {
+.galerie__background-text {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,7 +48,7 @@
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.label {
+.galerie__label {
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: bold;

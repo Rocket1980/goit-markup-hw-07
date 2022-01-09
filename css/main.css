@@ -334,7 +334,7 @@ span {
   padding-bottom: 84px;
 }
 
-.image {
+.galerie {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -346,7 +346,7 @@ span {
   margin: 0;
 }
 
-.classes-image-list {
+.galerie__list {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -363,7 +363,7 @@ span {
   position: relative;
 }
 
-.classes-image-list:first-child {
+.galerie__list:first-child {
   margin-left: 0;
 }
 
@@ -378,12 +378,12 @@ span {
   color: var(--text-primary);
 }
 
-.classes-image {
+.galerie__image {
   width: 370px;
   height: 294px;
 }
 
-.background-text {
+.galerie__background-text {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -402,7 +402,7 @@ span {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.label {
+.galerie__label {
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: bold;
