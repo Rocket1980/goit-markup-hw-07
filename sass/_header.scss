@@ -10,6 +10,10 @@
   align-items: center;
 }
 
+.connection-conteiner {
+  margin-left: auto;
+}
+
 .header-nav {
   display: flex;
 }
@@ -22,10 +26,6 @@
 
 .meny-nav__item + .meny-nav__item {
   margin-left: 50px;
-}
-
-.nav-box-connection {
-  margin-left: auto;
 }
 
 .logo {
@@ -47,7 +47,7 @@
   letter-spacing: 0.02em;
   color: var(--text-primary);
   position: relative;
-  transition: cololor 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .meny-nav__link:hover,
@@ -70,35 +70,35 @@
   display: flex;
 }
 
-.connection-mailto {
+.contacts-nav__mailto {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-secondary);
-  transition: cololor 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.connection-tel {
+.contacts-nav__tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-secondary);
-  transition: cololor 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.connection-mailto:hover,
-.connection-mailto:focus {
+.contacts-nav__mailto:hover,
+.contacts-nav__mailto:focus {
   color: var(--theme-color);
 }
 
-.connection-tel:hover,
-.connection-tel:focus {
+.contacts-nav__tel:hover,
+.contacts-nav__tel:focus {
   color: var(--theme-color);
 }
 
-.images-mailto {
+.contacts-nav__icon {
   width: 16px;
   height: 12px;
   border: none;
@@ -107,21 +107,7 @@
   fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.images-mailto:hover,
-.images-mailto:focus {
-  fill: var(--theme-color);
-}
-
-.images-tel {
-  width: 10px;
-  height: 16px;
-  border: none;
-  padding: 0;
-  margin: 0 10px 0 0;
-  fill: currentColor;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.images-tel:hover,
-.images-tel:focus {
+.contacts-nav__icon:hover,
+.contacts-nav__icon:focus {
   fill: var(--theme-color);
 }
