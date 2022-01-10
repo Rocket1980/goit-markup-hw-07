@@ -96,11 +96,12 @@
   width: 100%;
   height: 100%;
   color: #afb1b8;
-}
-.social-link__link:hover,
-.social-link__link:focus {
-  background-color: var(--theme-color);
-  color: #ffffff;
+
+  &:hover,
+  &:focus {
+    background-color: var(--theme-color);
+    color: #ffffff;
+  }
 }
 
 .social-link__icon {

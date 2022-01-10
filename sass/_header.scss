@@ -36,11 +36,11 @@
   color: var(--text-primary);
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.meny-nav__link:hover,
-.meny-nav__link:focus {
-  color: var(--theme-color);
+  &:hover,
+  &:focus {
+    color: var(--theme-color);
+  }
 }
 
 .meny-nav__link.active-page::after {
@@ -67,6 +67,11 @@
   letter-spacing: 0.02em;
   color: var(--text-secondary);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--theme-color);
+  }
 }
 
 .contacts-nav__tel {
@@ -76,16 +81,11 @@
   letter-spacing: 0.02em;
   color: var(--text-secondary);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.contacts-nav__mailto:hover,
-.contacts-nav__mailto:focus {
-  color: var(--theme-color);
-}
-
-.contacts-nav__tel:hover,
-.contacts-nav__tel:focus {
-  color: var(--theme-color);
+  &:hover,
+  &:focus {
+    color: var(--theme-color);
+  }
 }
 
 .contacts-nav__icon {
@@ -96,10 +96,11 @@
   margin: 0 10px 0 0;
   fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contacts-nav__icon:hover,
-.contacts-nav__icon:focus {
-  fill: var(--theme-color);
+
+  &:hover,
+  &:focus {
+    fill: var(--theme-color);
+  }
 }
 
 .contacts-nav__icon-tel {
